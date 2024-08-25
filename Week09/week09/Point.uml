@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.geometry.types.Point</OriginalElement>
+  <nodes>
+    <node x="-58.0" y="232.40172475523283">com.geometry.types.Circle</node>
+    <node x="-58.0" y="454.40172475523286">com.geometry.types.Cylinder</node>
+    <node x="-58.0" y="-13.598275244767137">com.geometry.types.Point</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.geometry.types.Cylinder" target="com.geometry.types.Circle" relationship="GENERALIZATION">
+      <point x="0.0" y="-80.5" />
+      <point x="0.0" y="80.50000000000003" />
+    </edge>
+    <edge source="com.geometry.types.Circle" target="com.geometry.types.Point" relationship="GENERALIZATION">
+      <point x="0.0" y="-80.5" />
+      <point x="0.0" y="92.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.6123076923076923" showDependencies="false" x="46.50000000000006" y="311.00000000000006" />
+  <SelectedNodes>
+    <node>com.geometry.types.Point</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
